@@ -1,0 +1,68 @@
+
+body {
+    height:1000px;
+    background-color: rgb(87, 188, 188);
+    font-family: '배달의민족 한나체 pro';}
+/* #top_fixed_bar{
+width:100%;
+height:5%;
+background-color: rgb(130, 174, 231);
+position:fixed;
+top:0px;
+left:0px;
+border:none;
+border-radius:0 0 5px 5px;
+z-index: 999;
+} */
+
+#main_bg{
+    background-color: rgb(229, 228, 226);
+    border-radius: 25px;
+    width: 60%;
+    height: 70%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/* 오늘은 */
+h2{
+    font-size : 3.1rem;
+    position:absolute;
+    top: 10%;
+    left: 15%;
+}
+/*뭐먹지*/
+h1{
+    font-size : 3.2rem;
+
+    position:absolute;
+    top: 20%;
+    left:15%;
+}
+.search_bar{
+  
+    width:60%;
+    max-width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    position:absolute;
+    top:50%;
+    left:15%;
+    
+    border: none;
+    background-color: rgb(240, 245, 244);
+}
+/* .submit_1{
+  
+    position:absolute;
+    top:52%;
+    left:70%;
+    border: 2px solid rgb(166, 168, 170);
+    background-color: rgb(240, 245, 244);
+} */
+.search_bar:hover{
+
+    background-color: #d6f3ee;
+}
